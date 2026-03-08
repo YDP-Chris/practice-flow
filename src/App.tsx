@@ -50,11 +50,11 @@ function App() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-primary-100 rounded-lg">
-                <Guitar className="text-primary-600" size={24} />
+                <Guitar className="text-primary-500" size={24} />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Practice Flow</h1>
-                <p className="text-sm text-gray-600">Guitar Practice Analytics</p>
+                <p className="text-sm text-gray-600">Turn Guitar Practice Into Visible Progress</p>
               </div>
             </div>
 
@@ -156,8 +156,9 @@ function App() {
       <footer className="mt-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-500 text-sm">
-            <p>Practice consistently. Track progress. Improve daily.</p>
+            <p className="text-gray-700 font-medium">Practice consistently. Track progress. Improve daily.</p>
             <p className="mt-2">Built with ❤️ for guitarists who want to level up.</p>
+            <p className="mt-1 text-xs">Privacy-first • No accounts • All data stays local</p>
           </div>
         </div>
       </footer>
