@@ -16,7 +16,7 @@ export default function Timer({ onComplete, className = '' }: TimerProps) {
     elapsed: 0
   });
 
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<number | null>(null);
   const pausedElapsedRef = useRef<number>(0);
 
   useEffect(() => {
